@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      LLAVE: ${{ secrets.LLAVE }}
+      LLAVE: ${{ secrets.LLAVE_WEATHER }}
       CITY: ${{ github.event.inputs.city }}
 
     steps:
