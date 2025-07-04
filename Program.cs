@@ -4,7 +4,7 @@ using System.Text.Json;
 var apiKey = Environment.GetEnvironmentVariable("LLAVE_WEATHER");
 if (string.IsNullOrWhiteSpace(apiKey))
 {
-    Console.Error.WriteLine("Falta la variable de entorno LLAVE.");
+    Console.Error.WriteLine("Falta la variable de entorno LLAVE_WEATHER.");
     return;
 }
 
